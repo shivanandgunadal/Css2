@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><center>
+    <h2>Perform mathematical operations using switch condition...!</h2>
+   </center>
+   <script>
+    var key = prompt("Enter a mathematical operation (add,sub,mul,div,rem)");
+
+    var a = Number(prompt("Enter a value of a"));
+    var b = Number(prompt("Enter a value of b"));
+
+    switch(key){
+        case  "add":
+            var sum = a+b;
+            document.write(`<h2> Sum = ${sum} </h2>`);
+            break;
+               case  "sub":
+            var sub = a-b;
+            document.write(`<h2> Sub = ${sub} </h2>`);
+            break;
+               case  "mul":
+            var mul = a*b;
+            document.write(`<h2> Mul = ${mul} </h2>`);
+            break;
+               case  "div":
+            var div = a/b;
+            document.write(`<h2> Div = ${div} </h2>`);
+            break;
+               case  "rem":
+            var rem = a%b;
+            document.write(`<h2> Sum = ${rem} </h2>`);
+            break;
+    }
+   </script>
+
+</body>
+</html>
+
+    
+
+    
+
+    
